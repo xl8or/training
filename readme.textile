@@ -1,20 +1,20 @@
-h4. to jumpstart this main git repo into a local repo of @your choices@.
+h4. to jumpstart this training git repo into a local repo of @your choices@.
 
-# @git config --global user.name@ @"Henry Lee"@
-# @git config --global user.email@ [@honesthenry@gmail.com@]
-# @git clone git://github.com/0ishi/main.git@ @main@
-# @cd@ %{color:blue}@main@% # change directory into your local repo.
+# @git config --global user.name@ @"Kevin Han"@
+# @git config --global user.email@ [@k3vinhan@gmail.com@]
+# @git clone git://github.com/xl8or/training.git@ @training@
+# @cd@ %{color:blue}@training@% # change directory into your local repo.
 
 h4. to get to normal workflow of edit, revert, cache, commit, and push to remote.
 
 # (edit files)
 # status of your local changes (optional), e.g. @git status@
 # discard your local changes (optional), e.g. @git checkout .@
-# put changes to cache (also called index), e.g. @git add src/main.cs@
-# get rid of changes out of cache (optional), e.g. @git reset src/main.java@
+# put changes to cache (also called index), e.g. @git add src/training.cs@
+# get rid of changes out of cache (optional), e.g. @git reset src/training.java@
 # diff --cached before commit, e.g. @git diff --cached@
-# commit changes from cache, e.g. @git commit -m 'added main.cs.'@ 
-# push to remote git repo, e.g. [@git push git@github.com:0ishi/main.git@]
+# commit changes from cache, e.g. @git commit -m 'added training.cs.'@ 
+# push to remote git repo, e.g. [@git push git@github.com:xl8or/training.git@]
 # pull from remote git repo (optional), e.g. @git pull@
 # merge conflicting changes (optional), e.g. @git mergetool@
 
@@ -32,7 +32,7 @@ alias grs='git reset' # out of cache
 alias gps='git push' # push
 alias gpl='git pull' # pull
 alias github='cd /Users/henry/github' # on mac osx
-alias main='cd /Users/henry/github/main' # on mac osx
+alias training='cd /Users/henry/github/training' # on mac osx
 </pre>
 
 h4. to produce colorful output with git commands.
@@ -61,4 +61,4 @@ h4. "to configure p4merge & p4diff":http://www.andymcintosh.com/?p=33, ~/.gitcon
 h4. resources
 
 "윈도우즈에서 Git-1.7.x.x-exe (데스크탑 용) 설치":http://code.google.com/p/msysgit/
-"윈도우즈에서 Git 사용 가이드":http://github.com/0ishi/main/wiki/Git-on-Windows
+"윈도우즈에서 Git 사용 가이드":http://github.com/xl8or/training/wiki/Git-on-Windows
